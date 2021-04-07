@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<style>
+    .alphabet{
+        background-color: #5993DF;
+        overflow: hidden;
+        text-align: center;
+        color: whitesmoke;
+        font-family: monaco, monospace;
+        font-size: 30px;
+    }
+    .letterBox{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid black;
+        padding:50px;
+        margin:200px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 30px;
+    }
+    #letter{
+        text-align: center;
+        font-size:60px;
+        font-family: monaco, monospace;
+
+    }
+
+</style>
+
+<body>
+
+<div class="alphabet">
+    <h1>How fast can you type the alphabet?</h1>
+</div>
+
+<div class="letterBox">
+    <p id="letter" >Type "A" to start</p>
+</div>
+
+<script src="./timer.js"></script>
+
+</body>
+</html>
